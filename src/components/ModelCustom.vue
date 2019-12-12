@@ -10,9 +10,9 @@
 export default {
   name: 'ModelCustom',
     props:['newValue'],
-    model:{
+    model: {
        prop: 'newValue' ,
-       event: 'custom:event'
+       event: 'custom:event',
     },
   data() {
     return {

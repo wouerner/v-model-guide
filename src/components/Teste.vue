@@ -19,7 +19,7 @@
 
       <hr>
 
-      <h4>props common patternl</h4>
+      <h4>props common pattern</h4>
       <sync-prop 
         v-bind:name="inputObject.name" 
         v-on:update:name="inputObject.name = $event"
