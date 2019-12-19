@@ -2,7 +2,6 @@
   <div>
       <label>input:</label> 
       <input :value="newValue" @input="$emit('custom:event', $event.target.value)">
-      <p>prop:{{ name }}</p>
   </div>
 </template>
 

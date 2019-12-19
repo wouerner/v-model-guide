@@ -1,8 +1,9 @@
 <template>
   <div>
-      <label>input:</label> 
-      <input :value="name" @input="$emit('update:name', $event.target.value)">
-      <p>prop:{{ name }}</p>
+      <label>nome</label> 
+      <input :value="name" @input="$emit('update:name', $event.target.value)"><br/>
+      <label>value</label> 
+      <input :value="value" @input="$emit('update:value', $event.target.value)">
   </div>
 </template>
 
@@ -14,7 +15,7 @@ export default {
         input: '' 
     }
   },
-  props:['name'],
+  props: ['name', 'value'],
 }
 </script>
 
