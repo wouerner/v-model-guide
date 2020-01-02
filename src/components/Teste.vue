@@ -1,9 +1,5 @@
 <template>
   <div class="teste">
-      <div class="fixed">
-          <h1> V-MODEL and PROPS/EVENT </h1>
-          <p> input: {{input}}, inputObject: {{inputObject}}</p>
-      </div>
       <main>
           <section>
               <div>
@@ -16,7 +12,6 @@
                   <prism language="html">{{html}}</prism>
               </div>
           </section>
-          <hr>
 
           <section>
               <div>
@@ -29,8 +24,6 @@
                   <prism language="html">{{html1}}</prism>
               </div>
           </section>
-
-          <hr>
           
           <section>
               <div>
@@ -43,8 +36,6 @@
                   <prism language="html">{{html2}}</prism>
               </div>
           </section>
-
-          <hr>
 
           <section>
               <div>
@@ -62,8 +53,6 @@
               </div>
           </section>
 
-          <hr>
-
           <section>
               <div>
                   <h4>.sync sugar</h4>
@@ -75,8 +64,6 @@
               </div>
           </section>
 
-          <hr>
-
           <section>
               <div>
                   <h4>Model Custom</h4>
@@ -98,6 +85,7 @@
                   <prism language="html">{{html5}}</prism>
               </div>
           </section>
+
           <section>
               <div>
                   <h4>v-model vuex</h4>
@@ -113,9 +101,16 @@
         </main>
 
         <footer>
-            <h4><a href="https://github.com/wouerner">wouerner</a></h4>
-            <h5> <a href="https://codigodehonra.tech">codigodehonra.tech</a></h5>
-            <a href="https://codigodehonra.tech"><img style=" height: 24px" src="@/assets/logo.png"/></a>
+            <div>
+                <a href="https://codigodehonra.tech">
+                    <img style="height: 60px; margin-right: 5px" src="@/assets/logo.png"/>
+                </a>
+                <div>
+                    <p>Project: <a href="https://github.com/wouerner/v-model-guide">v-model-guide</a></p>
+                    <p>Author: <a href="https://github.com/wouerner">wouerner</a></p>
+                    <p>Sponsorship: <a href="https://codigodehonra.tech">codigodehonra.tech</a></p>
+                </div>
+            </div>
         </footer>
   </div>
 </template>
@@ -229,7 +224,6 @@ h5{
     margin: 2px;
 }
 main{
-    margin-top: 122px;
     margin-bottom: 122px;
 }
 a {
@@ -260,6 +254,14 @@ footer {
     bottom: 0px;
     width: 100%;
     background-color: #008A00;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+footer > div {
+    display: flex;
+    bottom: 0px;
+    width: 100%;
     color: white;
     padding: 5px;
     text-align: center;
