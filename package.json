@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.4.3",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.24.0",
     "vue": "^2.6.10",
     "vue-analytics": "^5.20.2",
     "vue-highlightjs": "^1.3.3",
